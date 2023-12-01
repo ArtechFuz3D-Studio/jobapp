@@ -1,4 +1,5 @@
-import {View,Text} from 'react-native'
+import { useState } from 'react'
+import {View, ScrollView, Text, } from 'react-native'
 
 const Home = () => {
     return (
