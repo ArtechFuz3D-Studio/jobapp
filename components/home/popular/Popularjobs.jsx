@@ -25,7 +25,7 @@ const Popularjobs = () => {
             <Text>Oh No!, You broke it!</Text>
           ) : (
             <FlatList data={[1,2,3,4,5,6,7,8,9]} 
-            renderItem={() => (
+            renderItem={({item}) => (
               <PopularJobCard item={item} />
             )}
             keyExtractor={item => item?.job_id}
